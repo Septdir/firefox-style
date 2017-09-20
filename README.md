@@ -1,2 +1,2 @@
-# firefox
-Firefox files
+# Septdir - Firefox
+Styles
