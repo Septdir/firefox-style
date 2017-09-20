@@ -16,6 +16,9 @@
 		}
 	}
 	/* Top Sites */
+	.edit-topsites-wrapper .show-less {
+		display: none;
+	}
 	.top-sites-list .top-site-outer {
 		margin-inline-end: 25px;
 	}
@@ -31,10 +34,16 @@
 		display: none;
 	}
 	.top-sites-list .top-site-outer .top-site-icon {
-		background-size: 100%; !important;
+		background-size: 100%;
+	!important;
 	}
-	.top-sites-list a[href*="vk.com"] .top-site-icon {
+	.top-sites-list a[href*="vk.com"] .top-site-icon,
+	.top-sites-list a[href*="vk.com"] .screenshot {
 		background-image: url('https://raw.githubusercontent.com/Septdir/firefox/master/images/topsites/vk.com.png') !important;
+	}
+	.top-sites-list a[href*="twitter.com"] .top-site-icon,
+	.top-sites-list a[href*="twitter.com"] .screenshot {
+		background-image: url('https://raw.githubusercontent.com/Septdir/firefox/master/images/topsites/twitter.com.png') !important;
 	}
 	.top-sites-list a[href*="todoist.com"] .top-site-icon,
 	.top-sites-list a[href*="todoist.com"] .screenshot {
