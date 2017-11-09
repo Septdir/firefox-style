@@ -9,3 +9,83 @@
 
 @namespace url("http://www.w3.org/1999/xhtml");
 @namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* newTab
+========================================================================== */
+@-moz-document url(about:newtab) {
+	main {
+		box-sizing: border-box;
+		max-width: 1380px;
+		padding: 0 15px !important;
+		width: 100% !important;
+	}
+	/* Top Sites */
+	.edit-topsites-wrapper .show-less {
+		display: none !important;
+	}
+	.top-sites-list .top-site-outer {
+		margin-inline-end: 25px !important;
+	}
+	.top-sites-list .top-site-outer .tile {
+		width: 128px !important;
+		height: 128px !important;
+	}
+	.top-sites-list .top-site-outer .title {
+		width: 128px !important;;
+		font-size: 14px !important;
+	}
+	.top-sites-list .top-site-outer .top-site-icon.default-icon {
+		display: none !important;
+	}
+	.top-sites-list .top-site-outer .top-site-icon {
+		background-size: 100% !important;
+	}
+	.top-sites-list a[href*="todoist.com"] .top-site-icon,
+	.top-sites-list a[href*="todoist.com"] .screenshot {
+		background-image: url('images/topsites/todoist.com.png') !important;
+	}
+	.top-sites-list a[href*="vk.com"] .top-site-icon,
+	.top-sites-list a[href*="vk.com"] .screenshot {
+		background-image: url('images/topsites/vk.com.png') !important;
+	}
+	.top-sites-list a[href*="twitter.com"] .top-site-icon,
+	.top-sites-list a[href*="twitter.com"] .screenshot {
+		background-image: url('images/topsites/twitter.com.png') !important;
+	}
+	.top-sites-list a[href*="facebook.com"] .top-site-icon,
+	.top-sites-list a[href*="facebook.com"] .screenshot {
+		background-image: url('images/topsites/facebook.com.png') !important;
+	}
+	.top-sites-list a[href*="joomlaforum.ru"] .top-site-icon,
+	.top-sites-list a[href*="joomlaforum.ru"] .screenshot {
+		background-image: url('images/topsites/joomlaforum.ru.png') !important;
+	}
+	.top-sites-list a[href*="septdir.net"] .top-site-icon,
+	.top-sites-list a[href*="septdir.net"] .screenshot {
+		background-image: url('images/topsites/septdir.net.png') !important;
+	}
+	.top-sites-list a[href*="getuikit.com"] .top-site-icon,
+	.top-sites-list a[href*="getuikit.com"] .screenshot {
+		background-image: url('images/topsites/getuikit.com.png') !important;
+	}
+	.top-sites-list a[href*="translate.google"] .top-site-icon,
+	.top-sites-list a[href*="translate.google"] .screenshot {
+		background-image: url('images/topsites/translate.google.png') !important;
+	}
+	.top-sites-list a[href*="github.com"] .top-site-icon,
+	.top-sites-list a[href*="github.com"] .screenshot {
+		background-image: url('images/topsites/github.com.png') !important;
+	}
+	.top-sites-list a[href*="septdir.ru"] .top-site-icon,
+	.top-sites-list a[href*="septdir.ru"] .screenshot {
+		background-image: url('images/topsites/septdir.ru.png') !important;
+	}
+	.top-sites-list a[href*="nerudas.ru"] .top-site-icon,
+	.top-sites-list a[href*="nerudas.ru"] .screenshot {
+		background-image: url('images/topsites/nerudas.ru.png') !important;
+	}
+	.top-sites-list a[href*="joomlazen.com"] .top-site-icon,
+	.top-sites-list a[href*="joomlazen.com"] .screenshot {
+		background-image: url('images/topsites/joomlazen.com.png') !important;
+	}
+}
