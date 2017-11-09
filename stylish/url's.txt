@@ -1,4 +1,0 @@
-about:stylish-edit?id=1
-chrome://browser/content/browser.xul
-chrome://devtools/content/framework/
-jar:file:///C:/Program%20Files/Firefox%20Developer%20Edition/browser/omni.ja!/chrome/devtools/content/
