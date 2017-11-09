@@ -7,8 +7,9 @@
  * @link       https://septdir.ru
  */
 
-/* Colors
+/* Dev console
 ========================================================================== */
+/* Colors */
 :root.theme-dark {
 	--theme-body-background: #1F1F1F !important;
 	--theme-sidebar-background: #1F1F1F !important;
@@ -45,9 +46,9 @@
 	--theme-content-color2: var(--grey-40);
 	--theme-content-color3: #808080 !important;
 
-	--theme-highlight-green: #86DE74;
+	--theme-highlight-green: #77B767 !important;
 	--theme-highlight-blue: #84A2BC !important;
-	--theme-highlight-purple: #B98EFF;
+	--theme-highlight-purple: red !important;
 	--theme-highlight-red: #CF6664 !important;
 	--theme-highlight-yellow: #F3C672 !important;
 	--theme-highlight-orange: #E1935D !important;
@@ -101,8 +102,7 @@
 	--markup-outline: var(--theme-selection-background);
 }
 
-/* Sidebar
-========================================================================== */
+/* Sidebar */
 .theme-sidebar {
 	color: var(--theme-highlight-blue) !important;
 }
@@ -115,8 +115,7 @@
 	color: var(--theme-highlight-yellow) !important;
 }
 
-/* Editor
-========================================================================== */
+/* Editor */
 .theme-fg-color2 {
 	color: var(--theme-highlight-yellow) !important;
 }
@@ -141,6 +140,25 @@
 .not-displayed .tag {
 	color: var(--theme-highlight-blue) !important;
 }
+
+/* Styles */
+.cm-s-mozilla .cm-property {
+	color: var(--theme-highlight-yellow) !important;
+}
+.cm-s-mozilla .cm-attribute,
+.cm-s-mozilla .cm-builtin,
+.cm-s-mozilla .cm-keyword,
+.cm-s-mozilla .cm-number,
+.cm-s-mozilla .cm-atom,
+.cm-s-mozilla .cm-quote,
+.cm-s-mozilla .cm-variable {
+	color:  var(--theme-highlight-orange) !important;
+}
+.cm-s-mozilla .cm-string,
+.cm-s-mozilla .cm-string-2 {
+	color: var(--theme-highlight-bluegrey) !important;
+}
+
 
 /* Nav bar
 ========================================================================== */
