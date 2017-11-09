@@ -10,7 +10,7 @@
 @namespace url("http://www.w3.org/1999/xhtml");
 @namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-/* Newtab
+/* newTab
 ========================================================================== */
 @-moz-document url(about:newtab) {
 	main {
@@ -19,8 +19,6 @@
 		padding: 0 15px !important;
 		width: 100% !important;
 	}
-
-	/* Top Sites */
 	.edit-topsites-wrapper .show-less {
 		display: none !important;
 	}
