@@ -7,10 +7,7 @@
  * @link       https://septdir.ru
  */
 
-@namespace url("http://www.w3.org/1999/xhtml");
-@namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
-
-/* newTab
+/* New Tab
 ========================================================================== */
 @-moz-document url(about:newtab) {
 	main {

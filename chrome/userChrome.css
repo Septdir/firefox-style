@@ -7,10 +7,6 @@
  * @link       https://septdir.ru
  */
 
-@namespace url("http://www.w3.org/1999/xhtml");
-@namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-
 /* Colors
 ========================================================================== */
 :root.theme-dark {
