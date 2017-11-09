@@ -9,6 +9,7 @@
 
 @namespace url("http://www.w3.org/1999/xhtml");
 @namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
 /* Colors
 ========================================================================== */
@@ -143,4 +144,10 @@
 
 .not-displayed .tag {
 	color: var(--theme-highlight-blue) !important;
+}
+
+/* Nav bar
+========================================================================== */
+#nav-bar .toolbarbutton-menubutton-dropmarker {
+	display: none !important;
 }
