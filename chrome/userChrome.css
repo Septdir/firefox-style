@@ -145,6 +145,7 @@
 .cm-s-mozilla .cm-property {
 	color: var(--theme-highlight-yellow) !important;
 }
+
 .cm-s-mozilla .cm-attribute,
 .cm-s-mozilla .cm-builtin,
 .cm-s-mozilla .cm-keyword,
@@ -152,16 +153,24 @@
 .cm-s-mozilla .cm-atom,
 .cm-s-mozilla .cm-quote,
 .cm-s-mozilla .cm-variable {
-	color:  var(--theme-highlight-orange) !important;
+	color: var(--theme-highlight-orange) !important;
 }
+
 .cm-s-mozilla .cm-string,
 .cm-s-mozilla .cm-string-2 {
 	color: var(--theme-highlight-bluegrey) !important;
 }
 
-
 /* Nav bar
 ========================================================================== */
 #nav-bar .toolbarbutton-menubutton-dropmarker {
 	display: none !important;
+}
+
+/* Addons
+========================================================================== */
+
+/*Tab Center Redux */
+#tabbrowser-tabs:not([hasadjacentnewtabbutton]) > .tabbrowser-arrowscrollbox > .tabs-newtab-button {
+	visibility: visible !important;
 }
