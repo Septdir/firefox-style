@@ -52,6 +52,10 @@
 	.top-sites-list a[href*="facebook.com"] .screenshot {
 		background-image: url('images/topsites/facebook.com.png') !important;
 	}
+	.top-sites-list a[href*="firstvds.ru"] .top-site-icon,
+	.top-sites-list a[href*="firstvds.ru"] .screenshot {
+		background-image: url('images/topsites/firstvds.ru.png') !important;
+	}
 	.top-sites-list a[href*="septdir.net"] .top-site-icon,
 	.top-sites-list a[href*="septdir.net"] .screenshot {
 		background-image: url('images/topsites/septdir.net.png') !important;
