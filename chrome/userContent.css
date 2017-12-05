@@ -52,10 +52,6 @@
 	.top-sites-list a[href*="facebook.com"] .screenshot {
 		background-image: url('images/topsites/facebook.com.png') !important;
 	}
-	.top-sites-list a[href*="joomlaforum.ru"] .top-site-icon,
-	.top-sites-list a[href*="joomlaforum.ru"] .screenshot {
-		background-image: url('images/topsites/joomlaforum.ru.png') !important;
-	}
 	.top-sites-list a[href*="septdir.net"] .top-site-icon,
 	.top-sites-list a[href*="septdir.net"] .screenshot {
 		background-image: url('images/topsites/septdir.net.png') !important;
