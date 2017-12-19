@@ -1,4 +1,4 @@
-# Septdir Firefox Theme
+# Septdir Firefox Style
 
 Full | New Tab | Dev console
 --- | --- | ---
