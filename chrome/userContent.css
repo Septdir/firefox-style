@@ -36,50 +36,74 @@
 	.top-sites-list .top-site-outer .top-site-icon {
 		background-size: 100% !important;
 	}
+
+	/* todoist.com */
 	.top-sites-list a[href*="todoist.com"] .top-site-icon,
 	.top-sites-list a[href*="todoist.com"] .screenshot {
 		background-image: url('images/topsites/todoist.com.png') !important;
 	}
+
+	/* vk.com */
 	.top-sites-list a[href*="vk.com"] .top-site-icon,
 	.top-sites-list a[href*="vk.com"] .screenshot {
 		background-image: url('images/topsites/vk.com.png') !important;
 	}
+
+	/* twitter.com */
 	.top-sites-list a[href*="twitter.com"] .top-site-icon,
 	.top-sites-list a[href*="twitter.com"] .screenshot {
 		background-image: url('images/topsites/twitter.com.png') !important;
 	}
+
+	/* facebook.com */
 	.top-sites-list a[href*="facebook.com"] .top-site-icon,
 	.top-sites-list a[href*="facebook.com"] .screenshot {
 		background-image: url('images/topsites/facebook.com.png') !important;
 	}
+
+	/* firstvds.ru */
 	.top-sites-list a[href*="firstvds.ru"] .top-site-icon,
 	.top-sites-list a[href*="firstvds.ru"] .screenshot {
 		background-image: url('images/topsites/firstvds.ru.png') !important;
 	}
+
+	/* septdir.net */
 	.top-sites-list a[href*="septdir.net"] .top-site-icon,
 	.top-sites-list a[href*="septdir.net"] .screenshot {
 		background-image: url('images/topsites/septdir.net.png') !important;
 	}
+
+	/* getuikit.com */
 	.top-sites-list a[href*="getuikit.com"] .top-site-icon,
 	.top-sites-list a[href*="getuikit.com"] .screenshot {
 		background-image: url('images/topsites/getuikit.com.png') !important;
 	}
+
+	/* translate.google */
 	.top-sites-list a[href*="translate.google"] .top-site-icon,
 	.top-sites-list a[href*="translate.google"] .screenshot {
 		background-image: url('images/topsites/translate.google.png') !important;
 	}
+
+	/* github.com */
 	.top-sites-list a[href*="github.com"] .top-site-icon,
 	.top-sites-list a[href*="github.com"] .screenshot {
 		background-image: url('images/topsites/github.com.png') !important;
 	}
+
+	/* septdir.ru */
 	.top-sites-list a[href*="septdir.ru"] .top-site-icon,
 	.top-sites-list a[href*="septdir.ru"] .screenshot {
 		background-image: url('images/topsites/septdir.ru.png') !important;
 	}
+
+	/* nerudas.ru */
 	.top-sites-list a[href*="nerudas.ru"] .top-site-icon,
 	.top-sites-list a[href*="nerudas.ru"] .screenshot {
 		background-image: url('images/topsites/nerudas.ru.png') !important;
 	}
+
+	/* joomlazen.com */
 	.top-sites-list a[href*="joomlazen.com"] .top-site-icon,
 	.top-sites-list a[href*="joomlazen.com"] .screenshot {
 		background-image: url('images/topsites/joomlazen.com.png') !important;
