@@ -1,12 +1,11 @@
 /*
  * @package    Septdir Firefox Style
- * @version    1.0.0
+ * @version    1.0.1
  * @author     Igor Berdicheskiy - septdir.ru
- * @copyright  Copyright (c) 2013 - 2017 Igor Berdicheskiy. All rights reserved.
+ * @copyright  Copyright (c) 2013 - 2018 Igor Berdicheskiy. All rights reserved.
  * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
  * @link       https://septdir.ru
  */
-
 /* New Tab
 ========================================================================== */
 @-moz-document url(about:newtab) {
@@ -19,16 +18,23 @@
 	.edit-topsites-wrapper .show-less {
 		display: none !important;
 	}
+	.top-sites-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
 	.top-sites-list .top-site-outer {
-		margin-inline-end: 25px !important;
+		width: 12.5% !important;
+		margin: 0 !important;
 	}
 	.top-sites-list .top-site-outer .tile {
 		width: 128px !important;
 		height: 128px !important;
+		margin: 0 auto;
 	}
 	.top-sites-list .top-site-outer .title {
 		width: 128px !important;;
 		font-size: 14px !important;
+		margin: 0 auto;
 	}
 	.top-sites-list .top-site-outer .top-site-icon.default-icon {
 		display: none !important;
