@@ -23,8 +23,9 @@
 		flex-wrap: wrap;
 	}
 	.top-sites-list .top-site-outer {
-		width: 12.5% !important;
+		width: 11.1% !important;
 		margin: 0 !important;
+		box-sizing: border-box !important;
 	}
 	.top-sites-list .top-site-outer .tile {
 		width: 128px !important;
