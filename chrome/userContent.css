@@ -19,13 +19,18 @@
 		display: none !important;
 	}
 	.top-sites-list {
-		display: flex;
-		flex-wrap: wrap;
+		display: grid !important;
+		grid-gap: 24px !important;
+		grid-template-columns: repeat(auto-fit, 128px) !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none;
 	}
 	.top-sites-list .top-site-outer {
-		width: 11.1% !important;
-		margin: 0 !important;
+		width: 128px !important;
 		box-sizing: border-box !important;
+		padding: 0 !important;
+		margin: 0 !important;
 	}
 	.top-sites-list .top-site-outer .tile {
 		width: 128px !important;
@@ -114,5 +119,9 @@
 	.top-sites-list a[href*="joomlazen.com"] .top-site-icon,
 	.top-sites-list a[href*="joomlazen.com"] .screenshot {
 		background-image: url('images/topsites/joomlazen.com.png') !important;
+	}
+
+	.sections-list .section-list {
+		grid-gap: 57px !important;
 	}
 }
