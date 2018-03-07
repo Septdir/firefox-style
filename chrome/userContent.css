@@ -1,11 +1,12 @@
 /*
  * @package    Septdir Firefox Style
- * @version    1.0.2
+ * @version    1.0.3
  * @author     Igor Berdicheskiy - septdir.ru
  * @copyright  Copyright (c) 2013 - 2018 Igor Berdicheskiy. All rights reserved.
  * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
  * @link       https://septdir.ru
  */
+
 /* New Tab
 ========================================================================== */
 @-moz-document url(about:newtab) {
@@ -18,9 +19,13 @@
 	.edit-topsites-wrapper .show-less {
 		display: none !important;
 	}
+	.collapsible-section .section-body {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
 	.top-sites-list {
 		display: grid !important;
-		grid-gap: 24px !important;
+		grid-gap: 39px !important;
 		grid-template-columns: repeat(auto-fit, 128px) !important;
 		margin: 0 !important;
 		padding: 0 !important;
@@ -73,16 +78,10 @@
 		background-image: url('images/topsites/facebook.com.png') !important;
 	}
 
-	/* firstvds.ru */
-	.top-sites-list a[href*="firstvds.ru"] .top-site-icon,
-	.top-sites-list a[href*="firstvds.ru"] .screenshot {
-		background-image: url('images/topsites/firstvds.ru.png') !important;
-	}
-
-	/* septdir.net */
-	.top-sites-list a[href*="septdir.net"] .top-site-icon,
-	.top-sites-list a[href*="septdir.net"] .screenshot {
-		background-image: url('images/topsites/septdir.net.png') !important;
+	/* plus.google.com */
+	.top-sites-list a[href*="plus.google.com"] .top-site-icon,
+	.top-sites-list a[href*="plus.google.com"] .screenshot {
+		background-image: url('images/topsites/plus.google.com.png') !important;
 	}
 
 	/* getuikit.com */
@@ -103,6 +102,24 @@
 		background-image: url('images/topsites/github.com.png') !important;
 	}
 
+	/* firstvds.ru */
+	.top-sites-list a[href*="firstvds.ru"] .top-site-icon,
+	.top-sites-list a[href*="firstvds.ru"] .screenshot {
+		background-image: url('images/topsites/firstvds.ru.png') !important;
+	}
+
+	/* septdir.net */
+	.top-sites-list a[href*="septdir.net"] .top-site-icon,
+	.top-sites-list a[href*="septdir.net"] .screenshot {
+		background-image: url('images/topsites/septdir.net.png') !important;
+	}
+
+	/* nerudas.net */
+	.top-sites-list a[href*="nerudas.net"] .top-site-icon,
+	.top-sites-list a[href*="nerudas.net"] .screenshot{
+		background-image: url('images/topsites/nerudas.net.png') !important;
+	}
+
 	/* septdir.ru */
 	.top-sites-list a[href*="septdir.ru"] .top-site-icon,
 	.top-sites-list a[href*="septdir.ru"] .screenshot {
@@ -121,7 +138,20 @@
 		background-image: url('images/topsites/joomlazen.com.png') !important;
 	}
 
+	/* freelancehunt.com */
+	.top-sites-list a[href*="freelancehunt.com"] .top-site-icon,
+	.top-sites-list a[href*="freelancehunt.com"] .screenshot {
+		background-image: url('images/topsites/freelancehunt.com.png') !important;
+	}
+
+	/* joomla-support.ru */
+	.top-sites-list a[href*="joomla-support.ru"] .top-site-icon,
+	.top-sites-list a[href*="joomla-support.ru"] .screenshot {
+		background-image: url('images/topsites/joomla-support.ru.png') !important;
+	}
+
 	.sections-list .section-list {
-		grid-gap: 57px !important;
+		grid-gap: 45px !important;
+		grid-template-columns: repeat(auto-fit, 224px) !important;
 	}
 }
