@@ -53,6 +53,12 @@
 	.top-sites-list .top-site-outer .top-site-icon {
 		background-size: 100% !important;
 	}
+	.top-sites-list .top-site-outer .title.pinned span {
+		padding: 0 5px !important;
+	}
+	.top-sites-list .top-site-outer .title.pinned .icon {
+		display: none !important;
+	}
 
 	/* Top Sites */
 	.top-sites-list a[href*="facebook.com"] .top-site-icon,
