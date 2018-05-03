@@ -10,6 +10,17 @@
 /* Dev console
 ========================================================================== */
 /* Colors */
+
+:root {
+	--arrowpanel-color: #0c0c0d !important;
+	--arrowpanel-background: #fff !important;
+	--arrowpanel-border-color: ThreeDShadow !important;
+	--autocomplete-popup-color:  #0c0c0d !important;
+	--autocomplete-popup-background: #fff !important;
+	--autocomplete-popup-border-color: ThreeDShadow !important;
+}
+
+
 :root.theme-dark {
 	--theme-body-background: #1F1F1F !important;
 	--theme-sidebar-background: #1F1F1F !important;
