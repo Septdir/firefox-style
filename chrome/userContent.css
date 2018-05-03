@@ -10,6 +10,50 @@
 /* New Tab
 ========================================================================== */
 @-moz-document url(about:newtab) {
+	body.activity-stream.dark-theme {
+		--newtab-background-color: #F9F9FA !important;
+		--newtab-border-primary-color: #B1B1B3 !important;
+		--newtab-border-secondary-color: #D7D7DB !important;
+		--newtab-button-primary-color: #0060DF !important;
+		--newtab-button-secondary-color: inherit !important;
+		--newtab-element-active-color: rgba(215, 215, 219, 0.6) !important;
+		--newtab-element-hover-color: #EDEDF0 !important;
+		--newtab-icon-primary-color: rgba(12, 12, 13, 0.8) !important;
+		--newtab-icon-secondary-color: rgba(12, 12, 13, 0.6) !important;
+		--newtab-icon-tertiary-color: #D7D7DB !important;
+		--newtab-inner-box-shadow-color: rgba(0, 0, 0, 0.1) !important;
+		--newtab-link-primary-color: #0060DF !important;
+		--newtab-link-secondary-color: #008EA4 !important;
+		--newtab-text-conditional-color: #4A4A4F !important;
+		--newtab-text-primary-color: #0C0C0D !important;
+		--newtab-text-secondary-color: #737373 !important;
+		--newtab-text-tertiary-color: #737373 !important;
+		--newtab-textbox-background-color: #FFF !important;
+		--newtab-textbox-border: rgba(12, 12, 13, 0.2) !important;
+		--newtab-textbox-focus-color: #0060DF !important;
+		--newtab-textbox-focus-boxshadow: 0 0 0 1px #0060DF, 0 0 0 4px rgba(0, 96, 223, 0.3) !important;
+		--newtab-contextmenu-background-color: #F9F9FA !important;
+		--newtab-contextmenu-button-color: #FFF !important;
+		--newtab-modal-color: #FFF !important;
+		--newtab-overlay-color: rgba(237, 237, 240, 0.8) !important;
+		--newtab-section-header-text-color: #737373 !important;
+		--newtab-section-navigation-text-color: #737373 !important;
+		--newtab-section-active-contextmenu-color: #0C0C0D !important;
+		--newtab-search-border-color: transparent !important;
+		--newtab-search-dropdown-color: #FFF !important;
+		--newtab-search-dropdown-header-color: #F9F9FA !important;
+		--newtab-search-icon-color: rgba(12, 12, 13, 0.4) !important;
+		--newtab-topsites-background-color: #FFF !important;
+		--newtab-topsites-icon-shadow: inset 0 0 0 1px var(--newtab-inner-box-shadow-color) !important;
+		--newtab-topsites-label-color: inherit !important;
+		--newtab-card-active-outline-color: #D7D7DB !important;
+		--newtab-card-background-color: #FFF !important;
+		--newtab-card-hairline-color: rgba(0, 0, 0, 0.1) !important;
+		--newtab-card-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.1) !important;
+		--newtab-snippets-background-color: #FFF !important;
+		--newtab-snippets-hairline-color: transparent !important;
+	}
+
 	main {
 		box-sizing: border-box;
 		max-width: 1380px;
