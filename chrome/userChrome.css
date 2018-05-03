@@ -15,9 +15,13 @@
 	--arrowpanel-color: #0c0c0d !important;
 	--arrowpanel-background: #fff !important;
 	--arrowpanel-border-color: ThreeDShadow !important;
+
 	--autocomplete-popup-color:  #0c0c0d !important;
 	--autocomplete-popup-background: #fff !important;
 	--autocomplete-popup-border-color: ThreeDShadow !important;
+	--autocomplete-popup-secondary-color: #737373 !important;
+	--urlbar-popup-url-color: hsl(210, 77%, 47%) !important;
+	--urlbar-popup-action-color: hsl(178, 100%, 28%) !important;
 }
 
 
