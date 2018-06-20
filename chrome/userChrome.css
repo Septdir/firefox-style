@@ -15,6 +15,9 @@
 	--arrowpanel-color: #0c0c0d !important;
 	--arrowpanel-background: #fff !important;
 	--arrowpanel-border-color: ThreeDShadow !important;
+	--arrowpanel-dimmed: hsla(0, 0%, 80%, .3) !important;
+	--arrowpanel-dimmed-further: hsla(0, 0%, 80%, .45) !important;
+	--arrowpanel-dimmed-even-further: hsla(0, 0%, 80%, .8) !important;
 
 	--autocomplete-popup-color: #0c0c0d !important;
 	--autocomplete-popup-background: #fff !important;
