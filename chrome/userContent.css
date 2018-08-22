@@ -61,13 +61,19 @@
 		width: 100% !important;
 	}
 
+	.outer-wrapper {
+		padding: 30px 32px 20px !important;
+	}
+
 	.edit-topsites-wrapper .show-less {
 		display: none !important;
 	}
+
 	.collapsible-section .section-body {
 		margin: 0 !important;
 		padding: 0 !important;
 	}
+
 	.top-sites-list {
 		display: grid !important;
 		grid-gap: 39px !important;
@@ -76,31 +82,38 @@
 		padding: 0 !important;
 		list-style: none;
 	}
+
 	.top-sites-list .top-site-outer {
 		width: 128px !important;
 		box-sizing: border-box !important;
 		padding: 0 !important;
 		margin: 0 !important;
 	}
+
 	.top-sites-list .top-site-outer .tile {
 		width: 128px !important;
 		height: 128px !important;
 		margin: 0 auto;
 	}
+
 	.top-sites-list .top-site-outer .title {
 		width: 128px !important;;
 		font-size: 14px !important;
 		margin: 0 auto;
 	}
+
 	.top-sites-list .top-site-outer .top-site-icon.default-icon {
 		display: none !important;
 	}
+
 	.top-sites-list .top-site-outer .top-site-icon {
 		background-size: 100% !important;
 	}
+
 	.top-sites-list .top-site-outer .title.pinned span {
 		padding: 0 5px !important;
 	}
+
 	.top-sites-list .top-site-outer .title.pinned .icon {
 		display: none !important;
 	}
@@ -110,66 +123,82 @@
 	.top-sites-list a[href*="facebook.com"] .screenshot {
 		background-image: url('images/topsites/facebook.com.png') !important;
 	}
+
 	.top-sites-list a[href*="firstvds.ru"] .top-site-icon,
 	.top-sites-list a[href*="firstvds.ru"] .screenshot {
 		background-image: url('images/topsites/firstvds.ru.png') !important;
 	}
+
 	.top-sites-list a[href*="freelancehunt.com"] .top-site-icon,
 	.top-sites-list a[href*="freelancehunt.com"] .screenshot {
 		background-image: url('images/topsites/freelancehunt.com.png') !important;
 	}
+
 	.top-sites-list a[href*="getuikit.com"] .top-site-icon,
 	.top-sites-list a[href*="getuikit.com"] .screenshot {
 		background-image: url('images/topsites/getuikit.com.png') !important;
 	}
+
 	.top-sites-list a[href*="github.com"] .top-site-icon,
 	.top-sites-list a[href*="github.com"] .screenshot {
 		background-image: url('images/topsites/github.com.png') !important;
 	}
+
 	.top-sites-list a[href*="joomla-support.ru"] .top-site-icon,
 	.top-sites-list a[href*="joomla-support.ru"] .screenshot {
 		background-image: url('images/topsites/joomla-support.ru.png') !important;
 	}
+
 	.top-sites-list a[href*="joomlaforum.ru"] .top-site-icon,
 	.top-sites-list a[href*="joomlaforum.ru"] .screenshot {
 		background-image: url('images/topsites/joomlaforum.ru.png') !important;
 	}
+
 	.top-sites-list a[href*="joomlazen.com"] .top-site-icon,
 	.top-sites-list a[href*="joomlazen.com"] .screenshot {
 		background-image: url('images/topsites/joomlazen.com.png') !important;
 	}
+
 	.top-sites-list a[href*="nerudas.net"] .top-site-icon,
 	.top-sites-list a[href*="nerudas.net"] .screenshot {
 		background-image: url('images/topsites/nerudas.net.png') !important;
 	}
+
 	.top-sites-list a[href*="nerudas.ru"] .top-site-icon,
 	.top-sites-list a[href*="nerudas.ru"] .screenshot {
 		background-image: url('images/topsites/nerudas.ru.png') !important;
 	}
+
 	.top-sites-list a[href*="plus.google.com"] .top-site-icon,
 	.top-sites-list a[href*="plus.google.com"] .screenshot {
 		background-image: url('images/topsites/plus.google.com.png') !important;
 	}
+
 	.top-sites-list a[href*="septdir.net"] .top-site-icon,
 	.top-sites-list a[href*="septdir.net"] .screenshot {
 		background-image: url('images/topsites/septdir.net.png') !important;
 	}
+
 	.top-sites-list a[href*="septdir.ru"] .top-site-icon,
 	.top-sites-list a[href*="septdir.ru"] .screenshot {
 		background-image: url('images/topsites/septdir.ru.png') !important;
 	}
+
 	.top-sites-list a[href*="todoist.com"] .top-site-icon,
 	.top-sites-list a[href*="todoist.com"] .screenshot {
 		background-image: url('images/topsites/todoist.com.png') !important;
 	}
+
 	.top-sites-list a[href*="translate.google"] .top-site-icon,
 	.top-sites-list a[href*="translate.google"] .screenshot {
 		background-image: url('images/topsites/translate.google.png') !important;
 	}
+
 	.top-sites-list a[href*="twitter.com"] .top-site-icon,
 	.top-sites-list a[href*="twitter.com"] .screenshot {
 		background-image: url('images/topsites/twitter.com.png') !important;
 	}
+
 	.top-sites-list a[href*="vk.com"] .top-site-icon,
 	.top-sites-list a[href*="vk.com"] .screenshot {
 		background-image: url('images/topsites/vk.com.png') !important;
@@ -179,4 +208,44 @@
 		grid-gap: 45px !important;
 		grid-template-columns: repeat(auto-fit, 224px) !important;
 	}
+
+	/* Search */
+	.search-wrapper {
+		padding: 0 0 30px !important;;
+	}
+
+	.search-wrapper .search-inner-wrapper {
+		width: 100% !important;;
+	}
+
+	.search-wrapper input {
+		border-radius: 0 !important;
+		border: 1px solid #e5e5e5 !important;
+		box-shadow: none !important;
+	}
+
+	.search-wrapper .search-inner-wrapper:active input, .search-wrapper input:focus {
+		box-shadow: none !important;
+		border-color: #1e87f0 !important;
+	}
+
+	.fixed-search .search-wrapper {
+		position: static !important;
+		border-bottom: none !important;
+		background: none !important;
+		padding: 0 0 30px !important;;
+		height: auto !important;
+		width: 100% !important;
+	}
+
+	.fixed-search .search-wrapper input {
+		background: var(--newtab-textbox-background-color) var(--newtab-search-icon) 12px center no-repeat !important;
+		background-size: 24px !important;
+	}
+
+	.fixed-search .search-wrapper .search-inner-wrapper {
+		height: 48px !important;
+		width: 100% !important;;
+	}
+
 }
