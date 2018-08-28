@@ -10,10 +10,10 @@
 /* New Tab
 ========================================================================== */
 @-moz-document url(about:newtab) {
-	body.activity-stream.dark-theme {
-		--newtab-background-color: #F9F9FA !important;
-		--newtab-border-primary-color: #B1B1B3 !important;
-		--newtab-border-secondary-color: #D7D7DB !important;
+	body {
+		--newtab-background-color: #edeef0 !important;
+		--newtab-border-primary-color: #e5e5e5 !important;
+		--newtab-border-secondary-color: #d5d5d5 !important;
 		--newtab-button-primary-color: #0060DF !important;
 		--newtab-button-secondary-color: inherit !important;
 		--newtab-element-active-color: rgba(215, 215, 219, 0.6) !important;
@@ -27,7 +27,6 @@
 		--newtab-text-conditional-color: #4A4A4F !important;
 		--newtab-text-primary-color: #0C0C0D !important;
 		--newtab-text-secondary-color: #737373 !important;
-		--newtab-text-tertiary-color: #737373 !important;
 		--newtab-textbox-background-color: #FFF !important;
 		--newtab-textbox-border: rgba(12, 12, 13, 0.2) !important;
 		--newtab-textbox-focus-color: #0060DF !important;
@@ -42,6 +41,7 @@
 		--newtab-search-border-color: transparent !important;
 		--newtab-search-dropdown-color: #FFF !important;
 		--newtab-search-dropdown-header-color: #F9F9FA !important;
+		--newtab-search-header-background-color: rgba(249, 249, 250, 0.95) !important;
 		--newtab-search-icon-color: rgba(12, 12, 13, 0.4) !important;
 		--newtab-topsites-background-color: #FFF !important;
 		--newtab-topsites-icon-shadow: inset 0 0 0 1px var(--newtab-inner-box-shadow-color) !important;
