@@ -195,6 +195,6 @@
 /* URL bar
 ========================================================================== */
 #urlbar *|*.textbox-input::-moz-selection {
-	background-color: var(--theme-selection-background) !important;
-	color: var(--theme-selection-color) !important;
+	background-color: #2284e6;
+	color: #fff;
 }
