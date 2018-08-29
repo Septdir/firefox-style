@@ -119,6 +119,12 @@
 	--markup-outline: var(--theme-selection-background);
 }
 
+:root[platform="win"],
+:root[platform="mac"] {
+	scrollbar-face-color: #4c4c4c !important;
+}
+
+
 /* Sidebar */
 .theme-sidebar {
 	color: var(--theme-highlight-blue) !important;
