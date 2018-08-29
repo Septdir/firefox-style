@@ -137,6 +137,10 @@
 	color: var(--theme-highlight-yellow) !important;
 }
 
+.theme-fg-color4 {
+	color: var(--theme-highlight-bluegrey) !important;
+}
+
 .theme-fg-color6 {
 	color: var(--theme-highlight-bluegrey) !important;
 }
