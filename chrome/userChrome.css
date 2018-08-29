@@ -191,3 +191,10 @@
 #tabbrowser-tabs:not([hasadjacentnewtabbutton]) > .tabbrowser-arrowscrollbox > .tabs-newtab-button {
 	visibility: visible !important;
 }
+
+/* URL bar
+========================================================================== */
+#urlbar *|*.textbox-input::-moz-selection {
+	background-color: var(--theme-selection-background) !important;
+	color: var(--theme-selection-color) !important;
+}
