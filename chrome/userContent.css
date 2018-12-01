@@ -154,11 +154,6 @@
 		background-image: url('images/topsites/joomlaforum.ru.png') !important;
 	}
 
-	.top-sites-list a[href*="joomlazen.com"] .top-site-icon,
-	.top-sites-list a[href*="joomlazen.com"] .screenshot {
-		background-image: url('images/topsites/joomlazen.com.png') !important;
-	}
-
 	.top-sites-list a[href*="nerudas.net"] .top-site-icon,
 	.top-sites-list a[href*="nerudas.net"] .screenshot {
 		background-image: url('images/topsites/nerudas.net.png') !important;
@@ -180,7 +175,9 @@
 	}
 
 	.top-sites-list a[href*="septdir.ru"] .top-site-icon,
-	.top-sites-list a[href*="septdir.ru"] .screenshot {
+	.top-sites-list a[href*="septdir.ru"] .screenshot,
+	.top-sites-list a[href*="septdir.com"] .top-site-icon,
+	.top-sites-list a[href*="septdir.com"] .screenshot {
 		background-image: url('images/topsites/septdir.ru.png') !important;
 	}
 
