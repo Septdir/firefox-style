@@ -1,0 +1,248 @@
+/*
+ * @package    Septdir Firefox Style
+ * @version    1.1.3
+ * @author     Igor Berdicheskiy - septdir.ru
+ * @copyright  Copyright (c) 2013 - 2018 Igor Berdicheskiy. All rights reserved.
+ * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+ * @link       https://septdir.ru
+ */
+
+/* New Tab
+========================================================================== */
+@-moz-document url(about:newtab) {
+	body {
+		--newtab-background-color: #edeef0 !important;
+		--newtab-border-primary-color: #e5e5e5 !important;
+		--newtab-border-secondary-color: #d5d5d5 !important;
+		--newtab-button-primary-color: #0060DF !important;
+		--newtab-button-secondary-color: inherit !important;
+		--newtab-element-active-color: rgba(215, 215, 219, 0.6) !important;
+		--newtab-element-hover-color: #EDEDF0 !important;
+		--newtab-icon-primary-color: rgba(12, 12, 13, 0.8) !important;
+		--newtab-icon-secondary-color: rgba(12, 12, 13, 0.6) !important;
+		--newtab-icon-tertiary-color: #D7D7DB !important;
+		--newtab-inner-box-shadow-color: rgba(0, 0, 0, 0.1) !important;
+		--newtab-link-primary-color: #0060DF !important;
+		--newtab-link-secondary-color: #008EA4 !important;
+		--newtab-text-conditional-color: #4A4A4F !important;
+		--newtab-text-primary-color: #0C0C0D !important;
+		--newtab-text-secondary-color: #737373 !important;
+		--newtab-textbox-background-color: #FFF !important;
+		--newtab-textbox-border: rgba(12, 12, 13, 0.2) !important;
+		--newtab-textbox-focus-color: #0060DF !important;
+		--newtab-textbox-focus-boxshadow: 0 0 0 1px #0060DF, 0 0 0 4px rgba(0, 96, 223, 0.3) !important;
+		--newtab-contextmenu-background-color: #F9F9FA !important;
+		--newtab-contextmenu-button-color: #FFF !important;
+		--newtab-modal-color: #FFF !important;
+		--newtab-overlay-color: rgba(237, 237, 240, 0.8) !important;
+		--newtab-section-header-text-color: #737373 !important;
+		--newtab-section-navigation-text-color: #737373 !important;
+		--newtab-section-active-contextmenu-color: #0C0C0D !important;
+		--newtab-search-border-color: transparent !important;
+		--newtab-search-dropdown-color: #FFF !important;
+		--newtab-search-dropdown-header-color: #F9F9FA !important;
+		--newtab-search-header-background-color: rgba(249, 249, 250, 0.95) !important;
+		--newtab-search-icon-color: rgba(12, 12, 13, 0.4) !important;
+		--newtab-topsites-background-color: #FFF !important;
+		--newtab-topsites-icon-shadow: inset 0 0 0 1px var(--newtab-inner-box-shadow-color) !important;
+		--newtab-topsites-label-color: inherit !important;
+		--newtab-card-active-outline-color: #D7D7DB !important;
+		--newtab-card-background-color: #FFF !important;
+		--newtab-card-hairline-color: rgba(0, 0, 0, 0.1) !important;
+		--newtab-card-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.1) !important;
+		--newtab-snippets-background-color: #FFF !important;
+		--newtab-snippets-hairline-color: transparent !important;
+	}
+
+	main {
+		box-sizing: border-box;
+		max-width: 1380px;
+		padding: 0 15px !important;
+		width: 100% !important;
+	}
+
+	.outer-wrapper {
+		padding: 30px 32px 20px !important;
+	}
+
+	.edit-topsites-wrapper .show-less {
+		display: none !important;
+	}
+
+	.collapsible-section .section-body {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	.top-sites-list {
+		display: grid !important;
+		grid-gap: 39px !important;
+		grid-template-columns: repeat(auto-fit, 128px) !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none;
+	}
+
+	.top-sites-list .top-site-outer {
+		width: 128px !important;
+		box-sizing: border-box !important;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+	.top-sites-list .top-site-outer .tile {
+		width: 128px !important;
+		height: 128px !important;
+		margin: 0 auto;
+	}
+
+	.top-sites-list .top-site-outer .title {
+		width: 128px !important;;
+		font-size: 14px !important;
+		margin: 0 auto;
+	}
+
+	.top-sites-list .top-site-outer .top-site-icon.default-icon {
+		display: none !important;
+	}
+
+	.top-sites-list .top-site-outer .top-site-icon {
+		background-size: 100% !important;
+	}
+
+	.top-sites-list .top-site-outer .title.pinned span {
+		padding: 0 5px !important;
+	}
+
+	.top-sites-list .top-site-outer .title.pinned .icon {
+		display: none !important;
+	}
+
+	/* Top Sites */
+	.top-sites-list a[href*="facebook.com"] .top-site-icon,
+	.top-sites-list a[href*="facebook.com"] .screenshot {
+		background-image: url('images/topsites/facebook.com.png') !important;
+	}
+
+	.top-sites-list a[href*="firstvds.ru"] .top-site-icon,
+	.top-sites-list a[href*="firstvds.ru"] .screenshot {
+		background-image: url('images/topsites/firstvds.ru.png') !important;
+	}
+
+	.top-sites-list a[href*="freelancehunt.com"] .top-site-icon,
+	.top-sites-list a[href*="freelancehunt.com"] .screenshot {
+		background-image: url('images/topsites/freelancehunt.com.png') !important;
+	}
+
+	.top-sites-list a[href*="getuikit.com"] .top-site-icon,
+	.top-sites-list a[href*="getuikit.com"] .screenshot {
+		background-image: url('images/topsites/getuikit.com.png') !important;
+	}
+
+	.top-sites-list a[href*="github.com"] .top-site-icon,
+	.top-sites-list a[href*="github.com"] .screenshot {
+		background-image: url('images/topsites/github.com.png') !important;
+	}
+
+	.top-sites-list a[href*="joomla-support.ru"] .top-site-icon,
+	.top-sites-list a[href*="joomla-support.ru"] .screenshot {
+		background-image: url('images/topsites/joomla-support.ru.png') !important;
+	}
+
+	.top-sites-list a[href*="joomlaforum.ru"] .top-site-icon,
+	.top-sites-list a[href*="joomlaforum.ru"] .screenshot {
+		background-image: url('images/topsites/joomlaforum.ru.png') !important;
+	}
+
+	.top-sites-list a[href*="nerudas.net"] .top-site-icon,
+	.top-sites-list a[href*="nerudas.net"] .screenshot {
+		background-image: url('images/topsites/nerudas.net.png') !important;
+	}
+
+	.top-sites-list a[href*="nerudas.ru"] .top-site-icon,
+	.top-sites-list a[href*="nerudas.ru"] .screenshot {
+		background-image: url('images/topsites/nerudas.ru.png') !important;
+	}
+
+	.top-sites-list a[href*="plus.google.com"] .top-site-icon,
+	.top-sites-list a[href*="plus.google.com"] .screenshot {
+		background-image: url('images/topsites/plus.google.com.png') !important;
+	}
+
+	.top-sites-list a[href*="septdir.net"] .top-site-icon,
+	.top-sites-list a[href*="septdir.net"] .screenshot {
+		background-image: url('images/topsites/septdir.net.png') !important;
+	}
+
+	.top-sites-list a[href*="septdir.ru"] .top-site-icon,
+	.top-sites-list a[href*="septdir.ru"] .screenshot,
+	.top-sites-list a[href*="septdir.com"] .top-site-icon,
+	.top-sites-list a[href*="septdir.com"] .screenshot {
+		background-image: url('images/topsites/septdir.ru.png') !important;
+	}
+
+	.top-sites-list a[href*="todoist.com"] .top-site-icon,
+	.top-sites-list a[href*="todoist.com"] .screenshot {
+		background-image: url('images/topsites/todoist.com.png') !important;
+	}
+
+	.top-sites-list a[href*="translate.google"] .top-site-icon,
+	.top-sites-list a[href*="translate.google"] .screenshot {
+		background-image: url('images/topsites/translate.google.png') !important;
+	}
+
+	.top-sites-list a[href*="twitter.com"] .top-site-icon,
+	.top-sites-list a[href*="twitter.com"] .screenshot {
+		background-image: url('images/topsites/twitter.com.png') !important;
+	}
+
+	.top-sites-list a[href*="vk.com"] .top-site-icon,
+	.top-sites-list a[href*="vk.com"] .screenshot {
+		background-image: url('images/topsites/vk.com.png') !important;
+	}
+
+	.sections-list .section-list {
+		grid-gap: 45px !important;
+		grid-template-columns: repeat(auto-fit, 224px) !important;
+	}
+
+	/* Search */
+	.search-wrapper {
+		padding: 0 0 30px !important;;
+	}
+
+	.search-wrapper .search-inner-wrapper {
+		width: 100% !important;;
+	}
+
+	.search-wrapper input {
+		border-radius: 0 !important;
+		border: 1px solid #e5e5e5 !important;
+		box-shadow: none !important;
+	}
+
+	.search-wrapper .search-inner-wrapper:active input, .search-wrapper input:focus {
+		box-shadow: none !important;
+		border-color: #1e87f0 !important;
+	}
+
+	.fixed-search .search-wrapper {
+		position: static !important;
+		border-bottom: none !important;
+		background: none !important;
+		padding: 0 0 30px !important;;
+		height: auto !important;
+		width: 100% !important;
+	}
+
+	.fixed-search .search-wrapper input {
+		background: var(--newtab-textbox-background-color) var(--newtab-search-icon) 12px center no-repeat !important;
+		background-size: 24px !important;
+	}
+
+	.fixed-search .search-wrapper .search-inner-wrapper {
+		height: 48px !important;
+		width: 100% !important;;
+	}
+
+}
