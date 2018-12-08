@@ -14,7 +14,7 @@
 	--arrowpanel-dimmed: #333 !important;
 }
 
-/* Editor
+/* Dev tools
 ========================================================================== */
 :root {
 	--theme-body-background: #1F1F1F !important;
@@ -129,4 +129,11 @@
 ========================================================================== */
 #nav-bar .toolbarbutton-menubutton-dropmarker {
 	display: none !important;
+}
+
+/* URL bar
+========================================================================== */
+#urlbar *|*.textbox-input::-moz-selection {
+	background-color: #2284e6;
+	color: #fff;
 }
