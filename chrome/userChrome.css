@@ -136,3 +136,15 @@
 	background-color: #2284e6;
 	color: #fff;
 }
+
+/* Autocomplete
+========================================================================== */
+.autocomplete-richlistitem:hover {
+	background-color: #f6f6f6 !important;
+	color: #222 !important;
+}
+
+.autocomplete-richlistitem[selected] {
+	background-color: Highlight !important;
+	color: HighlightText !important;
+}
