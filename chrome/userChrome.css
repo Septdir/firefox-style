@@ -31,6 +31,10 @@
 	--theme-highlight-red: #CF6664 !important;
 	--theme-highlight-yellow: #F3C672 !important;
 	--theme-highlight-orange: #E1935D !important;
+	--theme-highlight-bluegrey: #8FBEB5 !important;
+	--theme-highlight-lightorange: #d99b28;
+	--theme-highlight-pink: #df80ff;
+	--theme-highlight-gray: #808080 !important;
 }
 
 .devtools-tab,
@@ -117,6 +121,16 @@
 	color: var(--theme-highlight-bluegrey) !important;
 }
 
+.ruleview-namecontainer > .ruleview-propertyname {
+	color: var(--theme-highlight-yellow) !important;
+}
+
+.ruleview-propertyvaluecontainer > .ruleview-propertyvalue {
+	color: var(--theme-highlight-bluegrey) !important;
+}
+.ruleview-propertyvaluecontainer a {
+	color: var(--theme-highlight-blue) !important;
+}
 
 /* Tabs bar
 ========================================================================== */
