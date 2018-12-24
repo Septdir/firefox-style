@@ -175,10 +175,14 @@
 	}
 
 	.top-sites-list a[href*="septdir.ru"] .top-site-icon,
-	.top-sites-list a[href*="septdir.ru"] .screenshot,
-	.top-sites-list a[href*="septdir.com"] .top-site-icon,
-	.top-sites-list a[href*="septdir.com"] .screenshot {
+	.top-sites-list a[href*="septdir.ru"] .screenshot
+	{
 		background-image: url('images/topsites/septdir.ru.png') !important;
+	}
+	.top-sites-list a[href*="septdir.com"] .top-site-icon,
+	.top-sites-list a[href*="septdir.com"] .screenshot
+	{
+		background-image: url('images/topsites/septdir.com.png') !important;
 	}
 
 	.top-sites-list a[href*="todoist.com"] .top-site-icon,
