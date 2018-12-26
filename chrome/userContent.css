@@ -134,6 +134,11 @@
 		background-image: url('images/topsites/freelancehunt.com.png') !important;
 	}
 
+	.top-sites-list a[href*="fl.ru"] .top-site-icon,
+	.top-sites-list a[href*="fl.ru"] .screenshot {
+		background-image: url('images/topsites/fl.ru.png') !important;
+	}
+
 	.top-sites-list a[href*="getuikit.com"] .top-site-icon,
 	.top-sites-list a[href*="getuikit.com"] .screenshot {
 		background-image: url('images/topsites/getuikit.com.png') !important;
@@ -179,10 +184,17 @@
 	{
 		background-image: url('images/topsites/septdir.ru.png') !important;
 	}
+
 	.top-sites-list a[href*="septdir.com"] .top-site-icon,
 	.top-sites-list a[href*="septdir.com"] .screenshot
 	{
 		background-image: url('images/topsites/septdir.com.png') !important;
+	}
+
+	.top-sites-list a[href*="septdir.pro"] .top-site-icon,
+	.top-sites-list a[href*="septdir.pro"] .screenshot
+	{
+		background-image: url('images/topsites/septdir.pro.png') !important;
 	}
 
 	.top-sites-list a[href*="todoist.com"] .top-site-icon,
