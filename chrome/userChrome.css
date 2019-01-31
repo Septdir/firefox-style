@@ -73,10 +73,11 @@
 	background: var(--theme-body-background) !important;
 }
 
-.theme-fg-color2 {
+.theme-fg-color1 {
 	color: var(--theme-highlight-yellow) !important;
 }
 
+.theme-fg-color2,
 .theme-fg-color4 {
 	color: var(--theme-highlight-bluegrey) !important;
 }
@@ -128,6 +129,7 @@
 .ruleview-propertyvaluecontainer > .ruleview-propertyvalue {
 	color: var(--theme-highlight-bluegrey) !important;
 }
+
 .ruleview-propertyvaluecontainer a {
 	color: var(--theme-highlight-blue) !important;
 }
