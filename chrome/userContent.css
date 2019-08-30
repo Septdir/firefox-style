@@ -1,12 +1,13 @@
 /*
- * @package    Septdir Firefox Style
+ * @package    Firefox style
  * @version    2.0.5
  * @author     Igor Berdicheskiy - septdir.ru
- * @copyright  Copyright (c) 2013 - 2018 Igor Berdicheskiy. All rights reserved.
+ * @copyright  Copyright (c) 2013 - 2019 Igor Berdicheskiy. All rights reserved.
  * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
  * @link       https://septdir.ru
  */
 
+@import "userChrome.css";
 
 /* New Tab
 ========================================================================== */
@@ -260,143 +261,5 @@
 	.fixed-search .search-wrapper .search-inner-wrapper {
 		height: 48px !important;
 		width: 100% !important;;
-	}
-}
-
-@-moz-document url-prefix("chrome://devtools/content/") {
-	/*
- * @package    Septdir Firefox Style
- * @version    2.0.5
- * @author     Igor Berdicheskiy - septdir.ru
- * @copyright  Copyright (c) 2013 - 2018 Igor Berdicheskiy. All rights reserved.
- * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
- * @link       https://septdir.ru
- */
-
-	:root {
-		--arrowpanel-color: #e5e5e5 !important;
-		--arrowpanel-background: #222 !important;
-		--arrowpanel-border-color: #333 !important;
-	}
-
-	/* Dev tools
-	========================================================================== */
-	:root {
-		--theme-body-background: #1F1F1F !important;
-		--theme-sidebar-background: #1F1F1F !important;
-		--theme-contrast-background: #E1935D !important;
-		--theme-tab-toolbar-background: #3c3f41 !important;
-		--theme-tab-background: #3c3f41 !important;
-		--theme-tab-selected-background: #515658 !important;
-		--theme-tab-selected-border: #439eb8 !important;
-		--tab-line-selected-color: #439eb8 !important;
-		--theme-toolbar-hover: var(--theme-tab-background) !important;
-		--theme-highlight-green: #77B767 !important;
-		--theme-highlight-blue: #84A2BC !important;
-		--theme-highlight-purple: red !important;
-		--theme-highlight-red: #CF6664 !important;
-		--theme-highlight-yellow: #F3C672 !important;
-		--theme-highlight-orange: #E1935D !important;
-		--theme-highlight-bluegrey: #8FBEB5 !important;
-		--theme-highlight-lightorange: #d99b28;
-		--theme-highlight-pink: #df80ff;
-		--theme-highlight-gray: #808080 !important;
-	}
-
-	.devtools-tab,
-	.tabs-menu-item {
-		border-right: 1px solid #4b4b4b !important;
-		border-bottom: 2px solid transparent !important;
-		background-color: var(--theme-tab-background);
-	}
-
-	.devtools-tab.selected,
-	.tabs-menu-item.is-active {
-		background-color: var(--theme-tab-selected-background) !important;
-		border-bottom-color: var(--theme-tab-selected-border) !important;
-	}
-
-	.devtools-tab-line {
-		display: none;
-	}
-
-	.source-outline-tabs .tab {
-		border-bottom: 2px solid transparent !important;
-		border-top: 1px solid var(--theme-splitter-color) !important;
-	}
-
-	.source-outline-tabs .tab.active {
-		border-top: inherit !important;
-		border-bottom: 2px solid var(--tab-line-selected-color) !important;
-	}
-
-	.source-outline-tabs .tab:hover {
-		border-top: 1px solid var(--theme-splitter-color) !important;
-		border-bottom: 2px solid var(--tab-line-hover-color) !important;
-	}
-
-	.CodeMirror.cm-s-mozilla {
-		background: var(--theme-body-background) !important;
-	}
-
-	.theme-fg-color1 {
-		color: var(--theme-highlight-yellow) !important;
-	}
-
-	.theme-fg-color2,
-	.theme-fg-color4 {
-		color: var(--theme-highlight-bluegrey) !important;
-	}
-
-	.theme-fg-color6 {
-		color: var(--theme-highlight-bluegrey) !important;
-	}
-
-	.editor.comment:not(.doctype) {
-		color: var(--theme-highlight-gray) !important;
-	}
-
-	.not-displayed,
-	.not-displayed * {
-		opacity: 0.9 !important;
-	}
-
-	.not-displayed {
-		color: var(--theme-highlight-blue) !important;
-	}
-
-	.not-displayed .tag {
-		color: var(--theme-highlight-blue) !important;
-	}
-
-	.cm-s-mozilla .cm-property {
-		color: var(--theme-highlight-yellow) !important;
-	}
-
-	.cm-s-mozilla .cm-attribute,
-	.cm-s-mozilla .cm-builtin,
-	.cm-s-mozilla .cm-keyword,
-	.cm-s-mozilla .cm-number,
-	.cm-s-mozilla .cm-atom,
-	.cm-s-mozilla .cm-quote,
-	.cm-s-mozilla .cm-variable {
-		color: var(--theme-highlight-orange) !important;
-	}
-
-	.cm-s-mozilla .cm-string,
-	.cm-s-mozilla .cm-string-2 {
-		color: var(--theme-highlight-bluegrey) !important;
-	}
-
-	.ruleview-namecontainer > .ruleview-propertyname {
-		color: var(--theme-highlight-yellow) !important;
-	}
-
-	.ruleview-propertyvaluecontainer > .ruleview-propertyvalue {
-		color: var(--theme-highlight-bluegrey) !important;
-	}
-
-	.ruleview-propertyvaluecontainer a {
-		color: var(--theme-highlight-blue) !important;
 	}
 }
