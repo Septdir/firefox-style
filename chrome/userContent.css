@@ -193,10 +193,10 @@
 		background-image: url('images/topsites/septdir.com.png') !important;
 	}
 
-	.top-sites-list a[href*="septdir.pro"] .top-site-icon,
-	.top-sites-list a[href*="septdir.pro"] .screenshot
+	.top-sites-list a[href*="septdir.dev"] .top-site-icon,
+	.top-sites-list a[href*="septdir.dev"] .screenshot
 	{
-		background-image: url('images/topsites/septdir.pro.png') !important;
+		background-image: url('images/topsites/septdir.dev.png') !important;
 	}
 
 	.top-sites-list a[href*="todoist.com"] .top-site-icon,
