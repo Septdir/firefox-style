@@ -182,20 +182,17 @@
 	}
 
 	.top-sites-list a[href*="septdir.ru"] .top-site-icon,
-	.top-sites-list a[href*="septdir.ru"] .screenshot
-	{
+	.top-sites-list a[href*="septdir.ru"] .screenshot {
 		background-image: url('images/topsites/septdir.ru.png') !important;
 	}
 
 	.top-sites-list a[href*="septdir.com"] .top-site-icon,
-	.top-sites-list a[href*="septdir.com"] .screenshot
-	{
+	.top-sites-list a[href*="septdir.com"] .screenshot {
 		background-image: url('images/topsites/septdir.com.png') !important;
 	}
 
 	.top-sites-list a[href*="septdir.dev"] .top-site-icon,
-	.top-sites-list a[href*="septdir.dev"] .screenshot
-	{
+	.top-sites-list a[href*="septdir.dev"] .screenshot {
 		background-image: url('images/topsites/septdir.dev.png') !important;
 	}
 
@@ -261,5 +258,33 @@
 	.fixed-search .search-wrapper .search-inner-wrapper {
 		height: 48px !important;
 		width: 100% !important;;
+	}
+}
+
+/* Github
+========================================================================== */
+@-moz-document url-prefix(https://github.com/) {
+	.position-relative.js-header-wrapper {
+		background: #24292e;
+	}
+
+	.position-relative.js-header-wrapper header.Header {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding-right: 32px !important;
+		padding-left: 32px !important;
+	}
+
+	.application-main main#js-repo-pjax-container .pagehead.repohead > .d-flex {
+		max-width: 1280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.application-main main#js-repo-pjax-container .pagehead.repohead > .UnderlineNav > .UnderlineNav-body {
+		max-width: 1280px;
+		margin: 0 auto;
+		width: 100%;
+		padding-right: 32px !important;
+		padding-left: 32px !important;
 	}
 }
