@@ -275,16 +275,25 @@
 		padding-left: 32px !important;
 	}
 
-	.application-main main#js-repo-pjax-container .pagehead.repohead > .d-flex {
+	.application-main main .pagehead.repohead > .d-flex {
 		max-width: 1280px;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.application-main main#js-repo-pjax-container .pagehead.repohead > .UnderlineNav > .UnderlineNav-body {
+	.application-main main .pagehead.repohead > .UnderlineNav > .UnderlineNav-body {
 		max-width: 1280px;
 		margin: 0 auto;
 		width: 100%;
 		padding-right: 32px !important;
 		padding-left: 32px !important;
+	}
+	@media screen and (min-width: 1900px) {
+		html.octotree.octotree-show {
+			margin-left: 0 !important;
+		}
+
+		.octotree-sidebar.octotree-github-sidebar {
+			position: fixed !important;
+		}
 	}
 }
