@@ -288,8 +288,11 @@
 		padding-left: 32px !important;
 	}
 	html.octotree.octotree-show .application-main main > .bg-gray-light  > .d-flex,
-	html.octotree.octotree-show .application-main main .application-main main#js-repo-pjax-container > div > nav.UnderlineNav {
+	html.octotree.octotree-show  main#js-repo-pjax-container > div > nav.UnderlineNav {
 		padding-left: 32px !important;
+	}
+	html.octotree.octotree-show  main#js-repo-pjax-container > div.container-xl {
+		margin-left: auto !important;
 	}
 	@media screen and (min-width: 1900px) {
 		html.octotree.octotree-show {
