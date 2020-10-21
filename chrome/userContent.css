@@ -263,44 +263,44 @@
 
 /* Github
 ========================================================================== */
-@-moz-document url-prefix(https://github.com/) {
-	.position-relative.js-header-wrapper {
-		background: #24292e;
-	}
+/*@-moz-document url-prefix(https://github.com/) {*/
+/*	.position-relative.js-header-wrapper {*/
+/*		background: #24292e;*/
+/*	}*/
 
-	.position-relative.js-header-wrapper header.Header {
-		max-width: 1280px;
-		margin: 0 auto;
-		padding-right: 32px !important;
-		padding-left: 32px !important;
-	}
+/*	.position-relative.js-header-wrapper header.Header {*/
+/*		max-width: 1280px;*/
+/*		margin: 0 auto;*/
+/*		padding-right: 32px !important;*/
+/*		padding-left: 32px !important;*/
+/*	}*/
 
-	.application-main main > .bg-gray-light  > .d-flex {
-		max-width: 1280px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.application-main main .UnderlineNav {
-		max-width: 1280px;
-		margin: 0 auto;
-		width: 100%;
-		padding-right: 32px !important;
-		padding-left: 32px !important;
-	}
-	html.octotree.octotree-show .application-main main > .bg-gray-light  > .d-flex,
-	html.octotree.octotree-show  main#js-repo-pjax-container > div > nav.UnderlineNav {
-		padding-left: 32px !important;
-	}
-	html.octotree.octotree-show  main#js-repo-pjax-container > div.container-xl {
-		margin-left: auto !important;
-	}
-	@media screen and (min-width: 1900px) {
-		html.octotree.octotree-show {
-			margin-left: 0 !important;
-		}
+/*	.application-main main > .bg-gray-light  > .d-flex {*/
+/*		max-width: 1280px;*/
+/*		margin-left: auto;*/
+/*		margin-right: auto;*/
+/*	}*/
+/*	.application-main main .UnderlineNav {*/
+/*		max-width: 1280px;*/
+/*		margin: 0 auto;*/
+/*		width: 100%;*/
+/*		padding-right: 32px !important;*/
+/*		padding-left: 32px !important;*/
+/*	}*/
+/*	html.octotree.octotree-show .application-main main > .bg-gray-light  > .d-flex,*/
+/*	html.octotree.octotree-show  main#js-repo-pjax-container > div > nav.UnderlineNav {*/
+/*		padding-left: 32px !important;*/
+/*	}*/
+/*	html.octotree.octotree-show  main#js-repo-pjax-container > div.container-xl {*/
+/*		margin-left: auto !important;*/
+/*	}*/
+/*	@media screen and (min-width: 1900px) {*/
+/*		html.octotree.octotree-show {*/
+/*			margin-left: 0 !important;*/
+/*		}*/
 
-		.octotree-sidebar.octotree-github-sidebar {
-			position: fixed !important;
-		}
-	}
-}
+/*		.octotree-sidebar.octotree-github-sidebar {*/
+/*			position: fixed !important;*/
+/*		}*/
+/*	}*/
+/*}*/
