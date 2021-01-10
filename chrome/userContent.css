@@ -156,6 +156,21 @@
 		background-image: url('images/topsites/joomla-support.ru.png') !important;
 	}
 
+	.top-sites-list a[href*="shikimori."] .top-site-icon,
+	.top-sites-list a[href*="shikimori."] .screenshot {
+		background-image: url('images/topsites/shikimori.one.png') !important;
+	}
+
+	.top-sites-list a[href*="goha.ru"] .top-site-icon,
+	.top-sites-list a[href*="goha.ru"] .screenshot {
+		background-image: url('images/topsites/goha.ru.png') !important;
+	}
+
+	.top-sites-list a[href*="mmorpg.com"] .top-site-icon,
+	.top-sites-list a[href*="mmorpg.com"] .screenshot {
+		background-image: url('images/topsites/mmorpg.com.png') !important;
+	}
+
 	.top-sites-list a[href*="joomlaforum.ru"] .top-site-icon,
 	.top-sites-list a[href*="joomlaforum.ru"] .screenshot {
 		background-image: url('images/topsites/joomlaforum.ru.png') !important;
