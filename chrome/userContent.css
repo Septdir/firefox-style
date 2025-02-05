@@ -13,6 +13,19 @@
 ========================================================================== */
 @-moz-document url(about:newtab) {
 
+	.layout-variant-b .top-site-outer .tile {
+		width: auto !important;
+		height: auto !important;
+	}
+
+	.top-site-outer .top-site-inner > a {
+		padding: 10px 0 0 !important;
+	}
+
+	.variant-b .top-site-outer {
+		width: auto !important;
+	}
+
 	/* Top Sites */
 	.top-site-button[href] .top-site-icon {
 		width: 75px !important;
